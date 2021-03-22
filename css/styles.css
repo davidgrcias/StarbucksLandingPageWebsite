@@ -1,0 +1,283 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto;
+}
+
+header .left-side a img{
+  width: 80px;
+}
+
+header .right-side{
+  display: flex;
+}
+
+header .right-side .nav-link-wrapper a{
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.container{
+  max-width: 80%;
+  margin: 50px auto;
+}
+
+.container .left-side{
+  text-align: center;
+}
+
+.container .left-side h1{
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+.container .left-side h1 .green{
+  color: green;
+  font-family: 'Viga', serif;
+}
+
+.container .left-side p{
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.container .left-side a{
+  display: inline-block;
+  background: green;
+  padding: 12px 18px 12px 18px;
+  text-decoration: none;
+  border-radius: 25px;
+  color: white;
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.container .right-side{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.container .right-side .circle{
+  display: none;
+  background-color: green;
+  width: 1400px;
+  position: absolute;
+  height: 1200px;
+  z-index: -1;
+  border-radius: 50%;
+  bottom: -680px;
+  right: -850px;
+}
+
+.container .right-side img{
+  max-width: 50%;
+}
+
+.container .right-side .box{
+  display: none;
+  position: absolute;
+  bottom: 250px;
+  right: 25px;
+}
+
+.container .right-side .box img{
+  width: 25px;
+  margin: 10px;
+}
+
+.container .right-side .box img.facebook{
+  width: 18.5px;
+}
+
+.thumb{
+  display: flex;
+  margin-top: -50px;
+  justify-content: center;
+}
+
+.thumb a:hover{
+  margin-top: -15px;
+  transition: 0.2s;
+}
+
+.thumb img{
+  width: 54px;
+  margin: 20px;
+}
+
+@media (min-width: 1140px){
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body{
+    overflow: hidden;
+  }
+
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  header .left-side a img{
+    width: 80px;
+  }
+
+  header .right-side{
+    display: flex;
+  }
+
+  header .right-side .nav-link-wrapper a{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .container{
+    max-width: 90%;
+    margin: 50px auto;
+    display: flex;
+  }
+
+  .container .left-side{
+    flex: 1;
+  }
+
+  .container .left-side h1{
+    font-size: 60px;
+    letter-spacing: 2px;
+  }
+
+  .container .left-side h1 .green{
+    color: green;
+    font-family: 'Viga', serif;
+  }
+
+  .container .left-side p{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  .container .left-side a{
+    display: inline-block;
+    background: green;
+    padding: 12px 18px 12px 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .container .right-side{
+    flex: 1;
+    text-align: center;
+  }
+
+  .container .right-side .circle{
+    display: block;
+    background-color: green;
+    width: 1400px;
+    position: absolute;
+    height: 1200px;
+    z-index: -1;
+    border-radius: 50%;
+    bottom: -680px;
+    right: -850px;
+  }
+
+  .container .right-side img{
+    width: 330px;
+    margin-left: 150px;
+  }
+
+  .container .right-side .box{
+    display: grid;
+    position: absolute;
+    bottom: 250px;
+    right: 25px;
+  }
+
+  .container .right-side .box img{
+    width: 25px;
+    margin: 10px;
+  }
+
+  .container .right-side .box img.facebook{
+    width: 18.5px;
+  }
+
+  .thumb{
+    display: flex;
+    margin-top: -140px;
+    justify-content: center;
+  }
+
+  .thumb a:hover{
+    margin-top: -15px;
+    transition: 0.2s;
+  }
+
+  .thumb img{
+    width: 54px;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 650px){
+  .container{
+    max-width: 80%;
+    margin: 50px auto;
+  }
+
+  .container .left-side{
+    text-align: center;
+  }
+
+  .container .left-side h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+
+  .container .left-side h1 .green{
+    color: green;
+    font-family: 'Viga', serif;
+  }
+
+  .container .left-side p{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+
+  .container .left-side a{
+    display: inline-block;
+    background: green;
+    padding: 12px 18px 12px 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    color: white;
+    margin-top: 15px;
+    font-size: 16.2px;
+    font-weight: bold;
+  }
+}
